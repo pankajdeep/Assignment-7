@@ -30,4 +30,6 @@ for i in range (n):
     d2['Python']=python
     d1[name]=d2
 inp=input("Enter the name of student whose marks you want to find")
-print(d1[inp])
+for a,b in d1[inp].items():
+    print(inp,"has got",b,"marks in",a)
+    
